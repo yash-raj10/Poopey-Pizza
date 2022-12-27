@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="pizza_1f355.png" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Contact Us</h1>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="index.html#About">About PP</a>
+        </li>
+        <li>
+          <a href="index.html#Menu">Our Menu</a>
+        </li>
+        <li>
+          <a href="TimingPP.html">Store Hours</a>
+        </li>
+      </ul>
+      <figure>
+        <img src="PPrestro.png" alt="Our Shop" width="640" height="430" />
+        <figcaption>Our Shop</figcaption>
+      </figure>
+    </nav>
+    <hr />
+    <section>
+      <h2>Our Contact Form</h2>
+      <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+        <legend>Send Us A Message</legend>
+        <p>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            autocomplete="on"
+            required
+            autofocus
+          />
+        </p>
+        <p>
+          <label for="mail">E-mail:</label>
+          <input
+            type="text"
+            name="mail"
+            id="mail"
+            placeholder="xyz@gmail.com"
+            autocomplete="on"
+            required
+          />
+        </p>
+        <p>
+          <label for="message">Your Message:</label>
+          <br />
+          <textarea
+            name="messge"
+            id="messge"
+            cols="30"
+            rows="10"
+            placeholder="Type your Message Here"
+          ></textarea>
+        </p>
+      </fieldset>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      <br>
+      <br>
+      <fieldset>
+        <legend>Feedback:-</legend>
+        <fieldset>
+          <legend>Which one you like most?</legend>
+          <p>
+            <input type="radio" name="pizza" id="veg" value="veg">
+            <label for="veg">Veg Pizza</label>
+          </p>
+          <p>
+            <input type="radio" name="pizza" id="non veg" value="non vrg">
+            <label for="non veg">Non Veg Pizza</label>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>What You Want us to Add on Our Menu?</legend>
+        <p>
+          <input type="checkbox" name="Extra" id="Tacos" value="Tacos">
+          <label for="Tacos">Tacos</label>
+        </p>
+        <p>
+          <input type="checkbox" name="Extra" id="Burger" value="Burger">
+          <label for="Burger">Burger</label>
+        </p>
+        <p>
+          <input type="checkbox" name="Extra" id="Breads" value="Breads">
+          <label for="Breads">Breads</label>
+        </p>
+        </fieldset>
+      </fieldset>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+
+      <form>
+    </section>
+    <hr />
+    <section>
+      <h2>Our Location</h2>
+      <address>
+        666 Pppeye Temption Lane, Suite P
+        <br />New Delhi, MO 555-555-5555
+      </address>
+      <p>Phone:- 555-555-5555</p>
+      <p><a href="#">Back to Top</a></p>
+    </section>
+    <hr />
+    <p>Copyright &copy; PopeyePizza</p>
+  </body>
+</html>
